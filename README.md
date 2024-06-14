@@ -1,4 +1,19 @@
-In this project, let's build a **Simple Todos** app by applying the concepts we have learned till now.
+# Simple Todos
+
+## Overview
+A basic task management application developed using React in three hours. This application allows users to track their tasks and is a learning project from my second week of learning React.
+
+## Key Features
+Task Management: Tracks tasks with titles and delete buttons.
+State Management: Maintains a list of tasks as state, with each task represented as an object containing an ID and a title.
+Task Deletion: Allows users to delete tasks from the list when they are completed.
+Responsive Design: Uses flexbox for a responsive layout.
+
+## Technical Details
+Frontend Framework: Built using React.
+Folder Structure: Maintains a consistent folder structure following clean code guidelines.
+Naming Conventions: Uses meaningful naming conventions, such as prefixing event handlers with on and creating reusable components.
+Hardcoded List: The list of tasks is hardcoded in this application.
 
 ### Refer to the image below:
 
@@ -8,43 +23,7 @@ In this project, let's build a **Simple Todos** app by applying the concepts we 
 </div>
 <br/>
 
-### Design Files
 
-<details>
-<summary>Click to view</summary>
-
-- [Extra Small (Size < 576px) and Small (Size >= 576px)](https://assets.ccbp.in/frontend/content/react-js/simple-todos-sm-output-v2.png)
-- [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px)](https://assets.ccbp.in/frontend/content/react-js/simple-todos-lg-output-v2.png)
-
-</details>
-
-### Set Up Instructions
-
-<details>
-<summary>Click to view</summary>
-
-- Download dependencies by running `npm install`
-- Start up the app using `npm start`
-</details>
-
-### Completion Instructions
-
-<details>
-<summary>Functionality to be added</summary>
-<br/>
-
-The app must have the following functionalities
-
-- Initially, the list of given todos should be displayed with a delete button for each todo
-- When **Delete** button of a todo is clicked, then the respective todo should be deleted
-- The `SimpleTodos` will consist of the `initialTodosList`. It consists of a list of todo objects with the following properties in each todo object
-
-  |  Key  | Data Type |
-  | :---: | :-------: |
-  |  id   |  Number   |
-  | title |  String   |
-
-</details>
 
 <details>
 <summary>Components Structure</summary>
@@ -69,54 +48,8 @@ Use these files to complete the implementation:
 - `src/components/TodoItem/index.css`
 </details>
 
-### Quick Tips
 
-<details>
-<summary>Click to view</summary>
-<br>
-
-- You can use the `cursor` CSS property to specify the mouse cursor to be displayed when pointing over an element
-
-  ```
-    cursor: pointer;
-  ```
-
-  <br/>
-   <img src="https://assets.ccbp.in/frontend/content/react-js/cursor-pointer-img.png" alt="cursor pointer" style="width:100px" />
-
-- You can use the below `outline` CSS property for buttons and input elements to remove the highlighting when the elements are clicked
-
-  ```
-    outline: none;
-  ```
-
-</details>
-
-### Resources
-
-<details>
-<summary>Colors</summary>
-
-<br/>
-
-<div style="background-color: #ffc2a0; width: 150px; padding: 10px; color: black">Hex: #ffc2a0</div>
-<div style="background-color: #ffffff; width: 150px; padding: 10px; color: black">Hex: #ffffff</div>
-<div style="background-color: #ff8542; width: 150px; padding: 10px; color: white">Hex: #ff8542</div>
-<div style="background-color: #000000; width: 150px; padding: 10px; color: white">Hex: #000000</div>
-<div style="background-color: #ff0b37; width: 150px; padding: 10px; color: white">Hex: #ff0b37</div>
-
-</details>
-
-<details>
-<summary>Font-families</summary>
-
-- Roboto
-
-</details>
-
-> ### _Things to Keep in Mind_
->
-> - All components you implement should go in the `src/components` directory.
-> - Don't change the component folder names as those are the files being imported into the tests.
-> - **Do not remove the pre-filled code**
-> - Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.
+## Future Enhancements
+Add New Tasks: Plan to enhance the application by adding the ability to add new tasks.
+Edit Existing Tasks: Plan to enhance the application by adding the ability to edit existing tasks.
+Mark Tasks as Completed: Plan to enhance the application by adding the ability to mark tasks as completed.
